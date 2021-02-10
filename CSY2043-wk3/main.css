@@ -1,0 +1,23 @@
+ul {
+    overflow: auto;
+    list-style-type: none;
+  }
+
+  nav {
+    margin: 30px;
+  }
+
+  legend {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
+}
+
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: .4rem;
+}
+
