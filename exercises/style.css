@@ -1,2 +1,40 @@
-h2
-colour:read-only;
+
+/*h2{
+    color:red;
+}
+/*
+p {
+    background-color: darkblue;
+    color: white;
+    display: block;
+    width: 150px;
+    float: left;
+}
+
+.red{
+    background-color: red;
+    overflow: auto;
+}
+*/
+.part1{
+    background-color: black;
+    overflow: auto; 
+    color: white;
+   
+}
+
+.part2{
+    color: green;
+    background-color: darkred;
+}
+
+.part3{
+    color: green;
+}
+
+.part4{
+    color: green;
+}
+.part5{
+    color: black;
+}
