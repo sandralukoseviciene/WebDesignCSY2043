@@ -2,22 +2,34 @@ header {
     background-color: blue;
     color: white;
     padding: 20px;
+    
 }
 
 nav {
     background-color: yellow;
+    
+    display: block;
+
+ 
+   
+  
 }
 
 main {
     background-color: darkblue;
     color: white;
+   
 }
 
 aside {
     background-color: lightgreen;
+  
 }
 
 footer {
     background-color: darkgreen;
     color: white;
+    
 }
+
+
