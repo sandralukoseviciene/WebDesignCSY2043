@@ -4,11 +4,17 @@
     display: block;
     width: 50%;
     float: left;
+    margin:0%;
+    border-radius:13%;
+    
+    
 }
 .csym015{
     background-color: yellow;
     color: black;
     display: block;
     width: 50%;
-    float: right;
+    float: left;
+    margin:0.1%;
+    border-radius:13%;
 }
