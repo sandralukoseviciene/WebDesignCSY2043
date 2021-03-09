@@ -16,14 +16,15 @@ document.addEventListener('DOMContentLoaded', myLoadFunction);
 
 function myClickEvent () {
     var element = document.getElementById('circle');
-    element.style.opacity = 1;
+    var circleOpacity = parseFloat(element.style.opacity);
+    element.style.opacity = circleOpacity - 0.1;
     
 }
 
-function myLoadFunction() {
+function myLoadEvent() {
     var element = document.getElementById('circle');
     element.addEventListener('click', myClickEvent);
     element.style.opacity = 0.5;
 }
 
-document.addEventListener('DOMContentLoaded', myLoadFunction);
+document.addEventListener('DOMContentLoaded', myLoadEvent);
