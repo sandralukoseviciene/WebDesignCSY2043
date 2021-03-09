@@ -8,36 +8,41 @@ body {
 }
 
 header {
-    background-color:blue;
+    background-color:rgb(53, 53, 58);
     color: white;
-    padding: 2em;
+    padding: 1em;
     grid-area: header;
 }
 
 nav {
-    background-color: white;
+    background-color: rgb(136, 134, 134);
     color: blue;
-    padding: 2em;
+    padding: 0.5em;
     grid-area: nav;
 }
 
 main {
-    background-color: darkgreen;
+    background-color: rgb(82, 100, 82);
     color: white;
-    padding: 2em;
+    padding: 0.5em;
     grid-area: main;
+    width: 50%;
+    
+   
+    
+    
 }
 
 aside {
-    background-color: yellow;
+    background-color: rgb(134, 134, 115);
     color: black;
-    padding: 2em;
+    padding: 0.5em;
     grid-area: aside;
 }
 
 footer {
-    background-color: red;
+    background-color: rgb(134, 118, 118);
     color: white;
-    padding: 2em;
+    padding: 0.5em;
     grid-area: footer;
 }
